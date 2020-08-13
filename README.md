@@ -2,7 +2,7 @@
 
 
 Longitude and altitude have a big role in the precision of the position and for the extraction of it will see a method among 
-we will see a method that makes it easier for us to find the positions of several addresses with python language.I used the geopy library
+we will see a method that makes it easier for us to find the positions of several addresses with python language.I used the geopy library for longitude and latitude extraction for the 48 wilaya Algeria
 
 ##  geopy 
 
