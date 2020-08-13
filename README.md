@@ -27,9 +27,15 @@ Or,[download a wheel or source archive from PyPI](https://pypi.org/project/geopy
 ### Example
 ```python
 from geopy.geocoders import Nominatim
+
 geolocator = Nominatim(user_agent="app_name")
+
 location = locator.geocode("Palais De La Culture Moufdi Zakaria")
+
 print(location.address)
+
 >>Palais de la Culture Moufdi Zakaria, Rue Bouder, Jardin aoumar merar, Kouba, Hussein Dey, الجزائر, 16000, الجزائر
+
 print((location.latitude, location.longitude))
+
 >>(36.73803975, 3.082081439998296)
